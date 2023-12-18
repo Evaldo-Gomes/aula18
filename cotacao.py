@@ -15,4 +15,6 @@ def getCotacao(codMoeda):
         return None
 
 # Teste - Cotação do Dólar
-print(f'{getCotacao("USD")}')
+print(f'\n\t\t\tUSD 1.00 = R${getCotacao("USD")}')
+print(f'\t\t\tEUR 1.00 = R${getCotacao("EUR")}')
+print(f'\t\t\tBTC 1.00 = R${getCotacao("BTC")}')
